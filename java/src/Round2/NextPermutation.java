@@ -3,7 +3,8 @@ package Round2;
 public class NextPermutation {
     public static void main(String[] args) {
         //int arr[] = {2, 3, 6, 5, 4, 1};
-        int arr[] = {1,2,3};
+        //int arr[] = {1,2,3};
+        int arr[] = {9,8,3,7,4,9};
 
         int result[] = getNextPermutation(arr);
         for (int i : result) {
